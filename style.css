@@ -1,0 +1,7 @@
+#background-image {
+  background: url("images/background.jpg") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  filter: opacity(50%);
+  filter: grayscale(50%);
+}
