@@ -22,14 +22,27 @@
 }
 #survey-form {
   display: grid;
+  grid-template-rows: repeat(9, 1fr);
   height: 1350px;
   width: 650px;
-  background-color: darkslateblue;
+  background-color: rgb(43, 34, 97);
   opacity: 75%;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
+}
+.form-text {
+  color: #fff;
+  font-size: 20px;
+}
+.input-text {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: hidden;
+  font-size: 16px;
+  font-weight: bold;
 }
 #name {
 }
