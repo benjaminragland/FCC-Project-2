@@ -7,38 +7,49 @@
     <link rel="stylesheet" href="style.css" />
     <title>Survey Form</title>
   </head>
+
   <body id="background-image">
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">We appreciate all of the feedback you provide!</p>
     <div id="form-container">
-    <form id="survey-form">
-      <div >
-        <p class="form-text"> Name</p>
-        <input id="name"class="input-text" type="text" name="name" required placeholder="Enter full name" />
-      </div>
+      <form id="survey-form">
+        <div>
+          <p class="form-text">Name</p>
+          <input
+            id="name"
+            class="input-text"
+            type="text"
+            name="name"
+            required
+            placeholder="Enter full name"
+          />
+        </div>
 
-      <div>
-        <p class="form-text">Email</p>
-        <input
-         id="email"
-          class="input-text"
-
-          type="email" name="email" required
-          placeholder="Enter valid email address"
-        />
-      </div>
-      <div >
-        <p class="form-text">Age</p>
-        <input
-        id="number"
-          class="input-text"
-          type="text" name="text" required
-          placeholder="Enter your age (optional)"
-        />
-      </div>
-      <div id="submit"></div>
-      </div>
-    </form>
+        <div>
+          <p class="form-text">Email</p>
+          <input
+            id="email"
+            class="input-text"
+            type="email"
+            name="email"
+            required
+            placeholder="Enter valid email address"
+          />
+        </div>
+        <div>
+          <p class="form-text">Age</p>
+          <input
+            id="number"
+            class="input-text"
+            type="text"
+            name="number"
+            required
+            placeholder="Enter your age (optional)"
+          />
+        </div>
+        <div id="submit"></div>
+      </form>
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="function.js"></script>
   </body>
