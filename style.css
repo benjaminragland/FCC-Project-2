@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 #background-image {
   background: url("images/background.jpg");
   background-position: center center;
@@ -26,7 +29,7 @@
 #survey-form {
   display: grid;
   grid-template-rows: 110px 110px 110px repeat(6, 1fr);
-  height: 1200px;
+  height: 1400px;
   width: 650px;
   background-color: rgb(43, 34, 97);
   opacity: 85%;
@@ -34,7 +37,7 @@
   padding: 40px;
 }
 .form-text {
-  color: #fff;
+  color: ghostwhite;
   font-size: 20px;
 }
 .input-text {
@@ -45,7 +48,21 @@
   font-size: 16px;
   font-weight: bold;
 }
-
+.large-checkbox {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+.large-radio-button {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+.text-area {
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 input {
   margin-bottom: 25px;
 }
