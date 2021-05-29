@@ -41,11 +41,28 @@
           <input
             id="number"
             class="input-text"
-            type="text"
-            name="number"
+            type="number"
+            name="age"
+            min="10"
+            max="100"
             required
             placeholder="Enter your age (optional)"
           />
+        </div>
+        <div id="radio-button">
+          <p class="form-text">Would you recommend freeCodeCamp to a friend?</p>
+          <label class="form-text"
+            ><input type="radio" name="group1" value="definitely" />
+            Definitely</label
+          >
+          <br />
+          <label class="form-text">
+            <input type="radio" name="group1" value="maybe" />Maybe</label
+          >
+          <br />
+          <label class="form-text">
+            <input type="radio" name="group1" value="not sure" />Not Sure</label
+          >
         </div>
         <div id="submit"></div>
       </form>
