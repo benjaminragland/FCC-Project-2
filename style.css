@@ -79,7 +79,15 @@ input {
 }
 #submit {
   align-self: start;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(80, 65, 167);
+  border-radius: 5px;
+  height: 3em;
+  border: none;
+  margin-top: 25px;
 }
+
 email.invalid {
   border: red solid 5px;
 }

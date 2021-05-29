@@ -57,6 +57,7 @@
               type="radio"
               name="group1"
               value="definitely"
+              required
             />Definitely</label
           >
           <br />
@@ -66,6 +67,7 @@
               type="radio"
               name="group1"
               value="maybe"
+              required
             />Maybe</label
           >
           <br />
@@ -75,6 +77,7 @@
               type="radio"
               name="group1"
               value="not sure"
+              required
             />Not Sure</label
           >
         </div>
@@ -82,7 +85,7 @@
           <p class="form-text">
             What is your favorite feature of freeCodeCamp?
           </p>
-          <select class="input-text" name="feature" id="dropdown">
+          <select class="input-text" name="feature" id="dropdown" required>
             <option hidden="hidden" label="Select an option"></option>
             <option value="challenges">Challenges</option>
             <option value="projects">Projects</option>
@@ -100,7 +103,7 @@
             <input
               class="large-checkbox"
               type="checkbox"
-              name="improvements"
+              name="improvement1"
               value="front-end projects"
             />Front-end Projects</label
           >
@@ -109,7 +112,7 @@
             <input
               class="large-checkbox"
               type="checkbox"
-              name="improvements"
+              name="improvement2"
               value="back-end projects"
             />Back-end Projects</label
           >
@@ -118,7 +121,7 @@
             <input
               class="large-checkbox"
               type="checkbox"
-              name="improvements"
+              name="improvement3"
               value="challenges"
             />Challenges</label
           >
@@ -127,7 +130,7 @@
             <input
               class="large-checkbox"
               type="checkbox"
-              name="improvements"
+              name="improvement4"
               value="open source community"
             />Open Source Community</label
           >
@@ -137,7 +140,7 @@
               class="large-checkbox"
               type="checkbox"
               name="improvements"
-              value="addition al courses"
+              value="additional courses"
             />Additional Courses</label
           >
         </div>
@@ -151,7 +154,9 @@
             placeholder="Comments are optional but always appreciated."
           ></textarea>
         </div>
-        <div id="submit"></div>
+        <div>
+          <button id="submit" class="form-text">Submit</button>
+        </div>
       </form>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
