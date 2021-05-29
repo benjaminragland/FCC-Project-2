@@ -1,0 +1,20 @@
+{
+  "folders": [
+	{
+		"path": "../../Treehouse/Unit-1"
+	},
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../Downloads/gyparody"
+	},
+	{
+		"path": "../../grid-playground"
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.multiRootWorkspaceName": "FreeCodeCamp"
+  }
+}

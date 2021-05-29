@@ -10,29 +10,34 @@
   <body id="background-image">
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">We appreciate all of the feedback you provide!</p>
+    <div id="form-container">
     <form id="survey-form">
-      <div id="name">
-        <p class="form-text">Name</p>
-        <input class="input-text" type="text" placeholder="Enter full name" />
+      <div >
+        <p class="form-text"> Name</p>
+        <input id="name"class="input-text" type="text" name="name" required placeholder="Enter full name" />
       </div>
 
-      <div id="email">
+      <div>
         <p class="form-text">Email</p>
         <input
+         id="email"
           class="input-text"
-          type="text"
+
+          type="email" name="email" required
           placeholder="Enter valid email address"
         />
       </div>
-      <div id="number">
+      <div >
         <p class="form-text">Age</p>
         <input
+        id="number"
           class="input-text"
-          type="text"
+          type="text" name="text" required
           placeholder="Enter your age (optional)"
         />
       </div>
       <div id="submit"></div>
+      </div>
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="function.js"></script>
