@@ -10,6 +10,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+/* styling for all form elements */
+
 #form-container {
   display: flex;
   justify-content: center;
@@ -19,13 +21,13 @@ body {
   font-size: 35px;
   color: ghostwhite;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 #description {
   font-size: 20px;
   color: ghostwhite;
   text-align: center;
-  filter: opacity(90%);
+  opacity: 90%;
 }
 #survey-form {
   display: grid;
@@ -33,9 +35,10 @@ body {
   height: 1400px;
   width: 650px;
   background-color: rgb(43, 34, 97);
-  opacity: 85%;
+  opacity: 92%;
   border-radius: 10px;
   padding: 40px;
+  margin-bottom: 25px;
 }
 .form-text {
   color: ghostwhite;
@@ -65,17 +68,35 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
 }
-input {
-  margin-bottom: 25px;
+.form-input {
+  margin-top: 10px;
+}
+.radio-input {
+  margin-top: 10px;
+}
+.checkbox-input {
+  margin-top: 10px;
 }
 #name {
   align-self: start;
 }
+#name-label {
+  color: ghostwhite;
+  font-size: 20px;
+}
 #email {
   align-self: start;
 }
+#email-label {
+  color: ghostwhite;
+  font-size: 20px;
+}
 #number {
   align-self: start;
+}
+#number-label {
+  color: ghostwhite;
+  font-size: 20px;
 }
 #submit {
   align-self: start;
@@ -85,9 +106,5 @@ input {
   border-radius: 5px;
   height: 3em;
   border: none;
-  margin-top: 25px;
-}
-
-email.invalid {
-  border: red solid 5px;
+  margin-top: 40px;
 }
